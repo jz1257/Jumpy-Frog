@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3F1E2DE1EB3CB2A000B4BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1E2DD1EB3CB2A000B4BA4 /* main.m */; };
+		D3F1E2E11EB3CB2A000B4BA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1E2E01EB3CB2A000B4BA4 /* AppDelegate.m */; };
+		D3F1E2E31EB3CB2A000B4BA4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3F1E2E21EB3CB2A000B4BA4 /* GameScene.sks */; };
+		D3F1E2E51EB3CB2A000B4BA4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3F1E2E41EB3CB2A000B4BA4 /* Actions.sks */; };
+		D3F1E2E81EB3CB2A000B4BA4 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1E2E71EB3CB2A000B4BA4 /* GameScene.m */; };
+		D3F1E2EB1EB3CB2A000B4BA4 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1E2EA1EB3CB2A000B4BA4 /* GameViewController.m */; };
+		D3F1E2EE1EB3CB2A000B4BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F1E2EC1EB3CB2A000B4BA4 /* Main.storyboard */; };
+		D3F1E2F01EB3CB2A000B4BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F1E2EF1EB3CB2A000B4BA4 /* Assets.xcassets */; };
+		D3F1E2F31EB3CB2A000B4BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F1E2F11EB3CB2A000B4BA4 /* LaunchScreen.storyboard */; };
+		D3F1E2FE1EB3CB2A000B4BA4 /* JumpyFrogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1E2FD1EB3CB2A000B4BA4 /* JumpyFrogTests.m */; };
+		D3F1E3091EB3CB2A000B4BA4 /* JumpyFrogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3F1E3081EB3CB2A000B4BA4 /* JumpyFrogUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3F1E2FA1EB3CB2A000B4BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3F1E2D11EB3CB2A000B4BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F1E2D81EB3CB2A000B4BA4;
+			remoteInfo = JumpyFrog;
+		};
+		D3F1E3051EB3CB2A000B4BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3F1E2D11EB3CB2A000B4BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3F1E2D81EB3CB2A000B4BA4;
+			remoteInfo = JumpyFrog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3F1E2D91EB3CB2A000B4BA4 /* JumpyFrog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpyFrog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F1E2DD1EB3CB2A000B4BA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3F1E2DF1EB3CB2A000B4BA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3F1E2E01EB3CB2A000B4BA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3F1E2E21EB3CB2A000B4BA4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D3F1E2E41EB3CB2A000B4BA4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D3F1E2E61EB3CB2A000B4BA4 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D3F1E2E71EB3CB2A000B4BA4 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D3F1E2E91EB3CB2A000B4BA4 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D3F1E2EA1EB3CB2A000B4BA4 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D3F1E2ED1EB3CB2A000B4BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3F1E2EF1EB3CB2A000B4BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F1E2F21EB3CB2A000B4BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3F1E2F41EB3CB2A000B4BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F1E2F91EB3CB2A000B4BA4 /* JumpyFrogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpyFrogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F1E2FD1EB3CB2A000B4BA4 /* JumpyFrogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpyFrogTests.m; sourceTree = "<group>"; };
+		D3F1E2FF1EB3CB2A000B4BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F1E3041EB3CB2A000B4BA4 /* JumpyFrogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpyFrogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F1E3081EB3CB2A000B4BA4 /* JumpyFrogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpyFrogUITests.m; sourceTree = "<group>"; };
+		D3F1E30A1EB3CB2A000B4BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F1E2D61EB3CB2A000B4BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F1E2F61EB3CB2A000B4BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F1E3011EB3CB2A000B4BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3F1E2D01EB3CB2A000B4BA4 = {
+			isa = PBXGroup;
+			children = (
+				D3F1E2DB1EB3CB2A000B4BA4 /* JumpyFrog */,
+				D3F1E2FC1EB3CB2A000B4BA4 /* JumpyFrogTests */,
+				D3F1E3071EB3CB2A000B4BA4 /* JumpyFrogUITests */,
+				D3F1E2DA1EB3CB2A000B4BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F1E2DA1EB3CB2A000B4BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F1E2D91EB3CB2A000B4BA4 /* JumpyFrog.app */,
+				D3F1E2F91EB3CB2A000B4BA4 /* JumpyFrogTests.xctest */,
+				D3F1E3041EB3CB2A000B4BA4 /* JumpyFrogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F1E2DB1EB3CB2A000B4BA4 /* JumpyFrog */ = {
+			isa = PBXGroup;
+			children = (
+				D3F1E2DF1EB3CB2A000B4BA4 /* AppDelegate.h */,
+				D3F1E2E01EB3CB2A000B4BA4 /* AppDelegate.m */,
+				D3F1E2E21EB3CB2A000B4BA4 /* GameScene.sks */,
+				D3F1E2E41EB3CB2A000B4BA4 /* Actions.sks */,
+				D3F1E2E61EB3CB2A000B4BA4 /* GameScene.h */,
+				D3F1E2E71EB3CB2A000B4BA4 /* GameScene.m */,
+				D3F1E2E91EB3CB2A000B4BA4 /* GameViewController.h */,
+				D3F1E2EA1EB3CB2A000B4BA4 /* GameViewController.m */,
+				D3F1E2EC1EB3CB2A000B4BA4 /* Main.storyboard */,
+				D3F1E2EF1EB3CB2A000B4BA4 /* Assets.xcassets */,
+				D3F1E2F11EB3CB2A000B4BA4 /* LaunchScreen.storyboard */,
+				D3F1E2F41EB3CB2A000B4BA4 /* Info.plist */,
+				D3F1E2DC1EB3CB2A000B4BA4 /* Supporting Files */,
+			);
+			path = JumpyFrog;
+			sourceTree = "<group>";
+		};
+		D3F1E2DC1EB3CB2A000B4BA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3F1E2DD1EB3CB2A000B4BA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3F1E2FC1EB3CB2A000B4BA4 /* JumpyFrogTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F1E2FD1EB3CB2A000B4BA4 /* JumpyFrogTests.m */,
+				D3F1E2FF1EB3CB2A000B4BA4 /* Info.plist */,
+			);
+			path = JumpyFrogTests;
+			sourceTree = "<group>";
+		};
+		D3F1E3071EB3CB2A000B4BA4 /* JumpyFrogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3F1E3081EB3CB2A000B4BA4 /* JumpyFrogUITests.m */,
+				D3F1E30A1EB3CB2A000B4BA4 /* Info.plist */,
+			);
+			path = JumpyFrogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F1E2D81EB3CB2A000B4BA4 /* JumpyFrog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F1E30D1EB3CB2A000B4BA4 /* Build configuration list for PBXNativeTarget "JumpyFrog" */;
+			buildPhases = (
+				D3F1E2D51EB3CB2A000B4BA4 /* Sources */,
+				D3F1E2D61EB3CB2A000B4BA4 /* Frameworks */,
+				D3F1E2D71EB3CB2A000B4BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpyFrog;
+			productName = JumpyFrog;
+			productReference = D3F1E2D91EB3CB2A000B4BA4 /* JumpyFrog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3F1E2F81EB3CB2A000B4BA4 /* JumpyFrogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F1E3101EB3CB2A000B4BA4 /* Build configuration list for PBXNativeTarget "JumpyFrogTests" */;
+			buildPhases = (
+				D3F1E2F51EB3CB2A000B4BA4 /* Sources */,
+				D3F1E2F61EB3CB2A000B4BA4 /* Frameworks */,
+				D3F1E2F71EB3CB2A000B4BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F1E2FB1EB3CB2A000B4BA4 /* PBXTargetDependency */,
+			);
+			name = JumpyFrogTests;
+			productName = JumpyFrogTests;
+			productReference = D3F1E2F91EB3CB2A000B4BA4 /* JumpyFrogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3F1E3031EB3CB2A000B4BA4 /* JumpyFrogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F1E3131EB3CB2A000B4BA4 /* Build configuration list for PBXNativeTarget "JumpyFrogUITests" */;
+			buildPhases = (
+				D3F1E3001EB3CB2A000B4BA4 /* Sources */,
+				D3F1E3011EB3CB2A000B4BA4 /* Frameworks */,
+				D3F1E3021EB3CB2A000B4BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3F1E3061EB3CB2A000B4BA4 /* PBXTargetDependency */,
+			);
+			name = JumpyFrogUITests;
+			productName = JumpyFrogUITests;
+			productReference = D3F1E3041EB3CB2A000B4BA4 /* JumpyFrogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F1E2D11EB3CB2A000B4BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = nyu.edu;
+				TargetAttributes = {
+					D3F1E2D81EB3CB2A000B4BA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GNM6TQJ58T;
+						ProvisioningStyle = Automatic;
+					};
+					D3F1E2F81EB3CB2A000B4BA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GNM6TQJ58T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3F1E2D81EB3CB2A000B4BA4;
+					};
+					D3F1E3031EB3CB2A000B4BA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GNM6TQJ58T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3F1E2D81EB3CB2A000B4BA4;
+					};
+				};
+			};
+			buildConfigurationList = D3F1E2D41EB3CB2A000B4BA4 /* Build configuration list for PBXProject "JumpyFrog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3F1E2D01EB3CB2A000B4BA4;
+			productRefGroup = D3F1E2DA1EB3CB2A000B4BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F1E2D81EB3CB2A000B4BA4 /* JumpyFrog */,
+				D3F1E2F81EB3CB2A000B4BA4 /* JumpyFrogTests */,
+				D3F1E3031EB3CB2A000B4BA4 /* JumpyFrogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F1E2D71EB3CB2A000B4BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F1E2EE1EB3CB2A000B4BA4 /* Main.storyboard in Resources */,
+				D3F1E2E31EB3CB2A000B4BA4 /* GameScene.sks in Resources */,
+				D3F1E2F01EB3CB2A000B4BA4 /* Assets.xcassets in Resources */,
+				D3F1E2F31EB3CB2A000B4BA4 /* LaunchScreen.storyboard in Resources */,
+				D3F1E2E51EB3CB2A000B4BA4 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F1E2F71EB3CB2A000B4BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F1E3021EB3CB2A000B4BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F1E2D51EB3CB2A000B4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F1E2EB1EB3CB2A000B4BA4 /* GameViewController.m in Sources */,
+				D3F1E2E11EB3CB2A000B4BA4 /* AppDelegate.m in Sources */,
+				D3F1E2E81EB3CB2A000B4BA4 /* GameScene.m in Sources */,
+				D3F1E2DE1EB3CB2A000B4BA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F1E2F51EB3CB2A000B4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F1E2FE1EB3CB2A000B4BA4 /* JumpyFrogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F1E3001EB3CB2A000B4BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F1E3091EB3CB2A000B4BA4 /* JumpyFrogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3F1E2FB1EB3CB2A000B4BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F1E2D81EB3CB2A000B4BA4 /* JumpyFrog */;
+			targetProxy = D3F1E2FA1EB3CB2A000B4BA4 /* PBXContainerItemProxy */;
+		};
+		D3F1E3061EB3CB2A000B4BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3F1E2D81EB3CB2A000B4BA4 /* JumpyFrog */;
+			targetProxy = D3F1E3051EB3CB2A000B4BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3F1E2EC1EB3CB2A000B4BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F1E2ED1EB3CB2A000B4BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3F1E2F11EB3CB2A000B4BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3F1E2F21EB3CB2A000B4BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3F1E30B1EB3CB2A000B4BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3F1E30C1EB3CB2A000B4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3F1E30E1EB3CB2A000B4BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNM6TQJ58T;
+				INFOPLIST_FILE = JumpyFrog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nyu.cs.ac4536.JumpyFrog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3F1E30F1EB3CB2A000B4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GNM6TQJ58T;
+				INFOPLIST_FILE = JumpyFrog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nyu.cs.ac4536.JumpyFrog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3F1E3111EB3CB2A000B4BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GNM6TQJ58T;
+				INFOPLIST_FILE = JumpyFrogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nyu.cs.ac4536.JumpyFrogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpyFrog.app/JumpyFrog";
+			};
+			name = Debug;
+		};
+		D3F1E3121EB3CB2A000B4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GNM6TQJ58T;
+				INFOPLIST_FILE = JumpyFrogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nyu.cs.ac4536.JumpyFrogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpyFrog.app/JumpyFrog";
+			};
+			name = Release;
+		};
+		D3F1E3141EB3CB2A000B4BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GNM6TQJ58T;
+				INFOPLIST_FILE = JumpyFrogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nyu.cs.ac4536.JumpyFrogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JumpyFrog;
+			};
+			name = Debug;
+		};
+		D3F1E3151EB3CB2A000B4BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GNM6TQJ58T;
+				INFOPLIST_FILE = JumpyFrogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nyu.cs.ac4536.JumpyFrogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JumpyFrog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F1E2D41EB3CB2A000B4BA4 /* Build configuration list for PBXProject "JumpyFrog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F1E30B1EB3CB2A000B4BA4 /* Debug */,
+				D3F1E30C1EB3CB2A000B4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F1E30D1EB3CB2A000B4BA4 /* Build configuration list for PBXNativeTarget "JumpyFrog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F1E30E1EB3CB2A000B4BA4 /* Debug */,
+				D3F1E30F1EB3CB2A000B4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F1E3101EB3CB2A000B4BA4 /* Build configuration list for PBXNativeTarget "JumpyFrogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F1E3111EB3CB2A000B4BA4 /* Debug */,
+				D3F1E3121EB3CB2A000B4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F1E3131EB3CB2A000B4BA4 /* Build configuration list for PBXNativeTarget "JumpyFrogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F1E3141EB3CB2A000B4BA4 /* Debug */,
+				D3F1E3151EB3CB2A000B4BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F1E2D11EB3CB2A000B4BA4 /* Project object */;
+}
